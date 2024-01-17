@@ -1,27 +1,24 @@
 <html>
-
-<head>
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script>
         $(function () {
-            $("#courseHome").load("index.html");
+            $("#edit").load("index.html");
         });
     </script>
     <script>
         $(function () {
-            $("#nav").load("../../Navigation/index.html");
+            $("#nav").load("../../../Navigation/index.html");
         });
     </script>
     <script>
         $(function () {
-            $("#courseNav").load("../Navigation/index.html");
+            $("#courseNav").load("../../Navigation/index.html");
         });
     </script>
-</head>
-
-<body>
-    <table>
-        <tbody>
+    </head>
+    <body>
+        <table>
             <tr>
                 <td valign="top">
                     <div id="nav"></div>
@@ -30,11 +27,9 @@
                     <div id="courseNav"></div>
                 </td>
                 <td>
-                    <div id="courseHome"></div>
+                    <div id="edit"></div>
                 </td>
             </tr>
-        </tbody>
-    </table>
-</body>
-
+        </table>
+    </body>
 </html>
