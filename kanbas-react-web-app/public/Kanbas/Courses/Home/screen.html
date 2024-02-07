@@ -22,6 +22,12 @@
 </head>
 
 <body>
+  <div class="wd-modules-menu-bar d-sm-block d-md-none">
+    <a href="/Kanbas/Navigation/index.html"><i class="fa fa-bars"></i></a>
+    <a href="/Kanbas/Courses/Navigation/index.html" class="wd-modules-menu-bar-right">
+      <i class="fa fa-chevron-down"></i>
+    </a>
+  </div>
     <div class="d-flex">
         <div class="d-none d-md-block">
             <ul class="wd-kanbas-navigation">
@@ -102,56 +108,55 @@
             </ul>
         </div>
         <div class="flex-fill">
+          <div class="wd-modules-button-group">
+            <button class="btn btn-secondary wd-modules-buttons">Collapse All</button>
+            <button class="btn btn-secondary wd-modules-buttons">View Progress</button>
+            <select class="wd-modules-buttons">
+                <option value="">Publish All</option>
+            </select>
+            <button class="btn btn-danger wd-modules-buttons">Module</button>
+          </div>
           <ul class="list-group wd-modules">
-            <div style="display:flex; flex-direction:row;">
-                <button>Collapse All</button>
-                <button>View Progress</button>
-                <select>
-                    <option value="">Publish All</option>
-                </select>
-                <button>Module</button>
-            </div>
-            <ul class="list-group wd-modules">
+            <li class="list-group-item">
+              <div>
+                <i class="fa fa-ellipsis-v"></i> Week 1
+                <span class="float-end">
+                  <i class="fa fa-check-circle text-success"></i>
+                  <i class="fa fa-plus ms-2"></i>
+                  <i class="fa fa-ellipsis-v ms-2"></i>
+                </span>
+              </div>
+              <ul class="list-group">
                 <li class="list-group-item">
-                  <div>
-                    <i class="fa fa-ellipsis-v"></i> Week 1
+                  <i class="fa fa-ellipsis-v"></i> Learning Objectives
+                  <span class="float-end">
+                    <i class="fa fa-check-circle text-success"></i>
+                    <i class="fa fa-ellipsis-v ms-2"></i>
+                  </span>
+                </li>
+              </ul>
+            </li>
+            <li class="list-group-item">
+                <div>
+                  <i class="fa fa-ellipsis-v"></i> Week 2
+                  <span class="float-end">
+                    <i class="fa fa-check-circle text-success"></i>
+                    <i class="fa fa-plus ms-2"></i>
+                    <i class="fa fa-ellipsis-v ms-2"></i>
+                  </span>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <i class="fa fa-ellipsis-v"></i> Learning Objectives
                     <span class="float-end">
                       <i class="fa fa-check-circle text-success"></i>
-                      <i class="fa fa-plus ms-2"></i>
                       <i class="fa fa-ellipsis-v ms-2"></i>
                     </span>
-                  </div>
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      <i class="fa fa-ellipsis-v"></i> Learning Objectives
-                      <span class="float-end">
-                        <i class="fa fa-check-circle text-success"></i>
-                        <i class="fa fa-ellipsis-v ms-2"></i>
-                      </span>
-                    </li>
-                  </ul>
-                </li>
-                <li class="list-group-item">
-                    <div>
-                      <i class="fa fa-ellipsis-v"></i> Week 2
-                      <span class="float-end">
-                        <i class="fa fa-check-circle text-success"></i>
-                        <i class="fa fa-plus ms-2"></i>
-                        <i class="fa fa-ellipsis-v ms-2"></i>
-                      </span>
-                    </div>
-                    <ul class="list-group">
-                      <li class="list-group-item">
-                        <i class="fa fa-ellipsis-v"></i> Learning Objectives
-                        <span class="float-end">
-                          <i class="fa fa-check-circle text-success"></i>
-                          <i class="fa fa-ellipsis-v ms-2"></i>
-                        </span>
-                      </li>
-                    </ul>
                   </li>
-              </ul>
-          </ul>
+                </ul>
+              </li>
+          
+      </ul>
         </div>
         <div class="flex-grow-0 me-2 d-none d-lg-block" style="width: 250px">
           <h3>Course Status</h3>

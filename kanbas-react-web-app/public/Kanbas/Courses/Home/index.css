@@ -30,3 +30,30 @@
 .wd-modules > li {
   margin-bottom: 20px;
 }
+
+.wd-modules-buttons{
+  margin-left: 10px;
+}
+
+.wd-modules-button-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 10px;
+}
+
+.wd-modules-menu-bar{
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.wd-modules-menu-bar > a > i{
+  color: white;
+  margin: 50px;
+}
+
+.wd-modules-menu-bar-right{
+  margin-right: auto;
+  float: right;
+}
